@@ -35,8 +35,12 @@ jobs:
           python-version: 3.8.x
 
       - name: Create Artifact
+        run: |
+          echo "Create Artifact"
 
       - name: Prepare Snowflake Objects to deploy
+        run: |
+          echo "Prepare Snowflake Objects to deploy"
 
       - name: Run Deploy Artifact
         env:
